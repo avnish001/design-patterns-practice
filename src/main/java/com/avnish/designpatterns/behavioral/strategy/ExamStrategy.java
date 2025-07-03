@@ -1,4 +1,5 @@
 package com.avnish.designpatterns.behavioral.strategy;
 
-public class StrategyExample {
+public interface ExamStrategy {
+    void prepare();
 }
